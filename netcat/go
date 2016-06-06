@@ -1,0 +1,3 @@
+#!/bin/bash
+
+while true; do nc -l $1 < sample_page.html; done
